@@ -8,3 +8,4 @@ Made a replica of [Figma Design](https://www.figma.com/design/K9XvDU57V3MAvpEt8J
 ### Additional Library used:
 > 1. React Quill (To make Toolbar enrcih text editor)
 > 2. Fontawseome (For icons)
+> 3. Vite (To bundle front end)
