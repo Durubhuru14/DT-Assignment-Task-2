@@ -1,0 +1,21 @@
+.inputAsset-container h4 {
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+.inputAsset-container input {
+    border: none;
+    outline: none;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 0.5rem;
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+.inputAsset-subContainer {
+    margin: 0 2rem;
+    padding-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}

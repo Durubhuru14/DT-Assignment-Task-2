@@ -1,0 +1,45 @@
+section.hero {
+    margin-top: 0.5rem;
+}
+
+section.hero > .hero-heading {
+    position: relative;
+}
+
+section.hero > .hero-heading > span {
+    color: var(--primary-color);
+    font-size: 1.5rem; /* 24px */
+    line-height: 2rem; /* 32px */
+}
+
+section.hero > .hero-heading > button {
+    background-color: var(--primary-color);
+    outline: none;
+    border: none;
+    color: #ffffff;
+    border-radius: 0.75rem;
+    font-size: 0.875rem; /* 14px */
+    line-height: 1.25rem; /* 20px */
+    padding: 0.5rem 1rem;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+}
+
+section.hero > .hero-content {
+    margin-top: 2rem;
+    background-color: var(--hero-content-bg-color);
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+section.hero > .hero-content > .hero-content-heading {
+    font-size: 1.125rem; /* 18px */
+    line-height: 1.75rem; /* 28px */
+}
+
+section.hero > .hero-content > .hero-content-text {
+    font-size: 0.875rem; /* 14px */
+    line-height: 1.25rem; /* 20px */
+    margin-top: 0.5rem;
+}

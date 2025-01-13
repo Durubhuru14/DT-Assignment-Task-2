@@ -1,0 +1,24 @@
+.text-editor {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.ql-container.ql-snow {
+  border: none;
+}
+
+.ql-editor {
+  min-height: 100px;
+  box-shadow: -5px 0px 5px 0px rgba(99,99,99,0.2);
+  border-radius: 0.5rem;
+}
+
+#toolbar {
+  display: inline-flex;
+  width: 480px;
+  flex-wrap: wrap;
+  border: none;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}

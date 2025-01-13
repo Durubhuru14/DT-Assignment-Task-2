@@ -1,0 +1,117 @@
+.intro-container {
+    margin: 0 2rem;
+}
+
+.intro-heading {
+    background-color: #f2f2f2;
+    padding: 0.5rem;
+    font-size: 1rem; /* 16px */
+    line-height: 1.5rem; /* 24px */
+    font-weight: 600;
+    cursor: pointer;
+    user-select: none;
+}
+
+.up-arrow {
+    font-size: 1.25rem;
+    transition: transform ease-in-out 500ms;
+}
+
+.up_arrow.rotate {
+    transform: rotate(180deg);
+}
+
+.intro-heading > .intro-text {
+    display: inline-block;
+    margin-left: 0.75rem;
+}
+
+.intro-content {
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+    font-size: 0.875rem; /* 14px */
+    line-height: 1.25rem; /* 20px */
+    max-height: 0px;
+    visibility: hidden;
+    overflow: hidden;
+    transition: max-height ease-in-out 500ms, visibility ease-in-out 500ms;
+}
+
+.intro-content.show {
+    max-height: calc(130px - 40px);
+    visibility: unset;
+}
+
+.intro-sub-content {
+    color: #606161;
+    float: right;
+    font-weight: 600;
+    margin-top: 2rem;
+}
+
+.thread-container {
+    margin: 0 2rem;
+    margin-top: 1rem;
+    height: 240px;
+    overflow: scroll;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+.thread-sub-container {
+    height: 130px;
+}
+
+.thread-container::-webkit-scrollbar {
+    display: none;
+}
+
+.thread-heading {
+    border: 1px solid #d9d7d7;
+    padding: 0.5rem;
+    font-size: 1rem; /* 16px */
+    line-height: 1.5rem; /* 24px */
+    font-weight: 600;
+    cursor: pointer;
+    user-select: none;
+}
+
+.thread-heading > .thread-text {
+    display: inline-block;
+    margin-left: 0.75rem;
+}
+
+.thread-content {
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+    font-size: 0.875rem; /* 14px */
+    line-height: 1.25rem; /* 20px */
+    max-height: 0px;
+    visibility: hidden;
+    overflow: hidden;
+    transition: max-height ease-in-out 500ms, visibility ease-in-out 500ms;
+}
+
+.thread-content.show {
+    max-height: 200px;
+    visibility: visible;
+}
+
+.thread-sub-content {
+    color: #606161;
+    float: right;
+    font-weight: 600;
+    margin-top: 2rem;
+}
+
+.example {
+    margin-left: 1rem;
+}
+
+.example-heading {
+    border: 1px solid #d9d7d7;
+    padding: 0.5rem;
+    font-size: 1rem; /* 16px */
+    line-height: 1.5rem; /* 24px */
+    font-weight: 600;
+}

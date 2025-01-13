@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --header-bg-color: #f0f0f0;
+    --hero-content-bg-color: #e9ecef;
+    --input-heading-bg-color: #f6f6f6;
+    --card-bg-color: #fdfdfd;
+    --primary-color: #0029ff;
+    --secondary-color: #3683f0;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding: 0.5rem;
+}
+
+body {
+    font-family: "Open Sans", serif;
+    position: relative;
+}
+
+main {
+    margin: 0 5rem;
+}
