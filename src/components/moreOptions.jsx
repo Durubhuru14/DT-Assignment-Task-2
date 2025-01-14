@@ -1,4 +1,4 @@
-import "./moreOptions.css";
+import "./styles/moreOptions.css";
 import questionMark from "../assets/question-mark.svg";
 import meeting from "../assets/meeting.svg";
 import schedule from "../assets/schedule.svg";

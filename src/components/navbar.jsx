@@ -1,4 +1,4 @@
-import "./navbar.css";
+import "./styles/navbar.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
     faHome,
