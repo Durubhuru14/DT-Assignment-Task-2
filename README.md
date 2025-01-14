@@ -2,6 +2,8 @@
 Made a replica of [Figma Design](https://www.figma.com/design/K9XvDU57V3MAvpEt8JFM4o/Web-Development-Assignment?node-id=20287-17&t=bliPF2OfQOTcO41D-0) provided by the team of DT.
 Here Instead of Hard coding the values I fetched from [API](https://dev.deepthought.education/assets/uploads/files/files/others/ddugky_project.json) provided by the DT team.
 
+You can check the live demo [here](https://deepthought-task-2.netlify.app/)
+
 - Note: Here instead of using API hosted by the DT team I have copied the content of API and pasted in ```public/data.json``` since I guess they haven't allowed **Access-Control-Allow-Origin** on their domain *https://dev.deepthought.education*
 
 ## Tech Stack
