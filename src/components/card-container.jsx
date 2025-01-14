@@ -7,7 +7,7 @@ import { faCircleInfo } from "@fortawesome/free-solid-svg-icons";
 import { checkContentAndAssetType } from "../helper/checkContentAndAssetType";
 
 // Card component
-const Card = ({ Asset, description, title }) => {
+const Card = ({ Asset, description, title, assetContent }) => {
     return (
         <div className="card" id={title}>
             <h4 className="card-heading">
@@ -27,7 +27,7 @@ const Card = ({ Asset, description, title }) => {
                 </div>
 
                 <div className="card-variation">
-                    <Asset />
+                    <Asset assetContent={assetContent} />
                 </div>
             </div>
         </div>
@@ -50,6 +50,7 @@ export const CardContainer = ({ assetsArr }) => {
                         title={asset.asset_title}
                         description={asset.asset_description}
                         Asset={AssetComponent}
+                        assetContent={asset.asset_content}
                     />
                 );
             })}
